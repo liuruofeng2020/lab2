@@ -1,0 +1,21 @@
+body{background-color: black;}
+table{background-color: white;width: 760px;size: 12px;}
+p{text-indent: 2em;color: black;font-variant: small-caps;}
+p.two{text-align: right;background-color: rgb(178, 200, 241);size: 13px;}
+p.b{text-align: right;}
+p.c{text-align: right;}
+p.d{text-align: right;}
+p.e{text-align: right;}
+td.three{text-align: center;font-weight: bold;}
+a{list-style: none;text-decoration: none;}
+li{list-style: none;text-decoration: none;}
+tr.four{text-align: center;font-weight: bold;size: 13px;background-image: url(/images/leftbg.jpg);}
+tr.six{text-align: center;font-weight: bold;size: 13px;background-image: url(/images/leftbg.jpg);}
+tr.eight{text-align: center;font-weight: bold;size: 13px;background-image: url(/images/leftbg.jpg);}
+ul.five{padding-left: 6px;list-style-position: inside;}
+ul.seven{padding-left: 6px;background-image: url(/images/icon1.gif);list-style-position: inside;}
+ol.nine{padding-left: 6px;background-image: url(/images/icon1.gif);list-style-position: inside;}
+a.g:active{background-color: yellow;}
+a.k:link{background-color: green;}
+a.w:hover{background-color: red;}
+a.x:visited{color: blue;}
