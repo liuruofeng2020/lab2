@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>面试人员登记表</title>
+</head>
+<body>  
+      <h1>面试人员信息登记</h1>
+      <form action="tijiao.html"  class="form1" method="GET">
+        <fieldset class="fld1">
+            <legend>面试信息</legend>
+                <p>应聘职位：<input type="text" placeholder="请输入本次应聘职位" minlength="2" maxlength="30" required="required"></p>
+                <p>期待月薪：<input type="text" value="5000" min="3000" max="100000" step="100" required="required"></p>
+        </fieldset>
+        <hr>
+        <fieldset class="fld2">
+            <legend>基本信息</legend>
+                <p>姓名：<input type="text" placeholder="请输入姓名" required="required"></p>
+                <p>性别：<input type="radio" name="sex" value="male" required="required"/>男
+                <input type="radio" name="sex" value="female" required="required"/>女</p>
+                <p>生日：<input type="date" name="date" id="time" /></p>
+                <p>籍贯：<input type="text" placeholder="请选择或输入籍贯" required="required"></p>
+                <p>证件：<input type="text" placeholder="请输入身份证号" required="required"></p>
+        </fieldset>
+        <fieldset class="fld3">
+            <legend>联系方式</legend>
+                <p>电话：<input type="text" placeholder="请输入电话号码" required="required"></p>
+                <p>邮箱：<input type="text" placeholder="请输入电子邮箱" required="required"></p>
+                <p>住址：<input type="text" placeholder="请输入住址" required="required"></p>
+        </fieldset>
+        <fieldset class="fld4">
+            <legend>联系方式</legend>
+                <p>学历：<select id="sex"><option value="female">专科</option><option value="male">本科</option></option><option value="male">硕士研究生</option></option><option value="male">博士研究生</option></select></p>
+                <p>学校：<input type="text" placeholder="请输入毕业院校" required="required"></p>
+                <p>专业：<input type="text" placeholder="请输入专业" required="required"></p>
+                <p>毕业时间：<input type="date" name="date"/></p>
+        </fieldset>
+        <fieldset class="fld5">
+            <legend>工作经历</legend>
+                <p>请按时间顺序填写最近从业的三次工作经历</p>
+                <label for="email">单位名称：</label>
+                <input type="text" placeholder="单位名称" required="required"/>
+                <label for="url">入职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="url">离职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="zhiweil">职位：</label>
+                <input type="text" placeholder="职位" required="required"/>
+                <label for="yuexin">月薪：</label>
+                <input type="text" placeholder="月薪" required="required"/>
+                <p><textarea rows="4" cols="50" placeholder="职责描述"></textarea></p>
+                <label for="email">单位名称：</label>
+                <input type="text" placeholder="单位名称" required="required"/>
+                <label for="url">入职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="url">离职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="zhiweil">职位：</label>
+                <input type="text" placeholder="职位" required="required"/>
+                <label for="yuexin">月薪：</label>
+                <input type="text" placeholder="月薪" required="required"/>
+                <p><textarea rows="4" cols="50" placeholder="职责描述"></textarea></p>
+                <label for="email">单位名称：</label>
+                <input type="text" placeholder="单位名称" required="required"/>
+                <label for="url">入职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="url">离职时间：</label>
+                <input type="date" name="date" required="required"/>
+                <label for="zhiweil">职位：</label>
+                <input type="text" placeholder="职位" required="required"/>
+                <label for="yuexin">月薪：</label>
+                <input type="text" placeholder="月薪" required="required"/>
+                <p><textarea rows="4" cols="50" placeholder="职责描述"></textarea></p>
+            </fieldset>
+            </form>
+            <p>自我评价</p>
+            <p><textarea rows="8" cols="100" placeholder="职责描述"></textarea></p>
+            <label><input name="web" type="checkbox" value="html"/>本人承诺：以上所有信息均如实填写，如有不实，本人承担一切后果</label>
+            <p><label><button type="button" ><a href="/tijiao.html">提交</a></button></label>
+            <label><input type="reset" name="button" id="button" value="重置" /></label></p>
+</body>
+</html>
